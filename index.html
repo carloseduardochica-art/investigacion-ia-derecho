@@ -52,11 +52,7 @@
   <h1>¿Cómo viviste la inteligencia artificial en tu materia?</h1>
   <p class="lead">Unos 10 minutos. Me interesa tu opinión real, sobre todo si es crítica: lo que no funcionó es tan útil como lo que sí.</p>
 
-  <div class="card">
-    <p><strong>Antes de empezar, lee esta hoja.</strong> Al aceptar en la primera pregunta del formulario declaras que la leíste.</p>
-    <a id="btn-encuesta" class="btn btn-primary" href="#" target="_blank" rel="noopener noreferrer">Responder la encuesta</a>
-    <p class="meta" style="margin-top:10px">Se abre en una pestaña nueva. Es una sola encuesta para Derecho Mercantil y Societario y para Filosofía del Derecho: al inicio eliges tu materia.</p>
-  </div>
+  <p class="note"><strong>Antes de empezar, lee esta hoja.</strong> El botón para responder está al final.</p>
 
   <h2>Quién investiga y para qué</h2>
   <p>Soy Carlos Eduardo Chica-Villacís, doctorando del programa de Doctorado en Derecho de la Universidad Andina Simón Bolívar, Sede Ecuador. Mi investigación estudia cómo integrar la inteligencia artificial en la enseñanza del derecho sin que el estudiante le entregue a la máquina el razonamiento jurídico. Quiero saber si las actividades con IA que usaste te ayudaron a aprender y a pensar por tu cuenta, o no.</p>
@@ -84,7 +80,8 @@
   <p>El riesgo es mínimo: el de contar tu experiencia académica. No recibirás pago. El beneficio es que la enseñanza del derecho con IA se diseñe pensando en lo que viven los estudiantes.</p>
 
   <div class="card">
-    <a class="btn btn-primary" id="btn-encuesta-2" href="#" target="_blank" rel="noopener noreferrer">Responder la encuesta</a>
+    <p style="margin:0">Al aceptar en la primera pregunta del formulario declaras que leíste esta hoja. Es una sola encuesta para Derecho Mercantil y Societario y para Filosofía del Derecho: al inicio eliges tu materia. Se abre en una pestaña nueva.</p>
+    <a class="btn btn-primary" id="btn-encuesta" href="#" target="_blank" rel="noopener noreferrer">Responder la encuesta</a>
     <a class="btn btn-secondary" id="btn-participacion" href="#" target="_blank" rel="noopener noreferrer">Quiero participar más (entrevista o uso de mis trabajos)</a>
   </div>
 
@@ -104,7 +101,6 @@
     else { a.setAttribute('aria-disabled', 'true'); a.textContent += ' · aún no disponible'; }
   }
   enlazar('btn-encuesta', CONFIG.encuesta);
-  enlazar('btn-encuesta-2', CONFIG.encuesta);
   enlazar('btn-participacion', CONFIG.participacion);
   const c = document.getElementById('contacto');
   if (CONFIG.contacto) { c.href = 'mailto:' + CONFIG.contacto; c.textContent = CONFIG.contacto; }
