@@ -61,7 +61,7 @@
   <h2>Qué implica participar</h2>
   <ul>
     <li><strong>Encuesta anónima</strong> de unos 10 minutos, con preguntas cerradas y algunas abiertas.</li>
-    <li><strong>Solo si quieres, además:</strong> una entrevista de 30 a 40 minutos y la autorización para usar tus trabajos de la materia con seudónimo. Eso se hace en un formulario aparte, al final.</li>
+    <li><strong>Solo si quieres, además:</strong> una entrevista de 30 a 40 minutos y la autorización para usar tus trabajos de la materia con seudónimo. Al terminar la encuesta verás cómo hacerlo, en un formulario aparte.</li>
   </ul>
 
   <h2>Es voluntaria y no afecta tus notas</h2>
@@ -82,7 +82,6 @@
   <div class="card">
     <p style="margin:0">Al aceptar en la primera pregunta del formulario declaras que leíste esta hoja. Es una sola encuesta para Derecho Mercantil y Societario y para Filosofía del Derecho: al inicio eliges tu materia. Se abre en una pestaña nueva.</p>
     <a class="btn btn-primary" id="btn-encuesta" href="#" target="_blank" rel="noopener noreferrer">Responder la encuesta</a>
-    <a class="btn btn-secondary" id="btn-participacion" href="#" target="_blank" rel="noopener noreferrer">Quiero participar más (entrevista o uso de mis trabajos)</a>
   </div>
 
   <footer>Investigación doctoral · Doctorado en Derecho, UASB-E · Hoja informativa, versión 2 · octubre de 2026</footer>
@@ -101,7 +100,6 @@
     else { a.setAttribute('aria-disabled', 'true'); a.textContent += ' · aún no disponible'; }
   }
   enlazar('btn-encuesta', CONFIG.encuesta);
-  enlazar('btn-participacion', CONFIG.participacion);
   const c = document.getElementById('contacto');
   if (CONFIG.contacto) { c.href = 'mailto:' + CONFIG.contacto; c.textContent = CONFIG.contacto; }
 </script>
