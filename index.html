@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Investigación sobre IA y derecho</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #f7f5f1; --surface: #ffffff; --ink: #1d1f23; --muted: #5b5f66;
+    --line: #e2ddd4; --accent: #8a111a; --accent-ink: #ffffff; --note: #f1ece3;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #16171a; --surface: #1f2125; --ink: #ecebe8; --muted: #a6a9ae;
+      --line: #33363b; --accent: #d9555f; --accent-ink: #16171a; --note: #26282d;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #16171a; --surface: #1f2125; --ink: #ecebe8; --muted: #a6a9ae;
+    --line: #33363b; --accent: #d9555f; --accent-ink: #16171a; --note: #26282d;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink);
+         font: 17px/1.6 "Source Sans 3", system-ui, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 40px 16px 64px; }
+  .kicker { font-size: 13px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin: 0 0 8px; }
+  h1 { font-family: "Source Serif 4", Georgia, serif; font-weight: 600; font-size: clamp(26px, 5vw, 34px);
+       line-height: 1.2; margin: 0 0 12px; }
+  h2 { font-family: "Source Serif 4", Georgia, serif; font-weight: 600; font-size: 20px; margin: 32px 0 8px; }
+  p, li { margin: 0 0 10px; }
+  ul { padding-left: 20px; margin: 0 0 10px; }
+  .lead { font-size: 19px; color: var(--muted); }
+  .card { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 20px; margin: 24px 0; }
+  .note { background: var(--note); border-radius: 10px; padding: 14px 16px; }
+  .meta { font-size: 15px; color: var(--muted); }
+  .btn { display: block; width: 100%; text-align: center; text-decoration: none; font-weight: 600;
+         padding: 14px 18px; border-radius: 10px; margin: 12px 0 0; font-size: 17px; }
+  .btn-primary { background: var(--accent); color: var(--accent-ink); }
+  .btn-secondary { border: 1.5px solid var(--accent); color: var(--accent); }
+  .btn[aria-disabled="true"] { opacity: .45; pointer-events: none; }
+  .btn:focus-visible { outline: 3px solid var(--ink); outline-offset: 2px; }
+  footer { margin-top: 40px; font-size: 14px; color: var(--muted); border-top: 1px solid var(--line); padding-top: 16px; }
+</style>
+</head>
+<body>
+<main>
+  <p class="kicker">Investigación doctoral · voluntaria y anónima</p>
+  <h1>¿Cómo viviste la inteligencia artificial en tu materia?</h1>
+  <p class="lead">Unos 10 minutos. Me interesa tu opinión real, sobre todo si es crítica: lo que no funcionó es tan útil como lo que sí.</p>
+
+  <div class="card">
+    <p><strong>Antes de empezar, lee esta hoja.</strong> Al aceptar en la primera pregunta del formulario declaras que la leíste.</p>
+    <a id="btn-encuesta" class="btn btn-primary" href="#" target="_blank" rel="noopener noreferrer">Responder la encuesta</a>
+    <p class="meta" style="margin-top:10px">Se abre en una pestaña nueva. Es una sola encuesta para Derecho Mercantil y Societario y para Filosofía del Derecho: al inicio eliges tu materia.</p>
+  </div>
+
+  <h2>Quién investiga y para qué</h2>
+  <p>Soy Carlos Eduardo Chica-Villacís, doctorando del programa de Doctorado en Derecho de la Universidad Andina Simón Bolívar, Sede Ecuador. Mi investigación estudia cómo integrar la inteligencia artificial en la enseñanza del derecho sin que el estudiante le entregue a la máquina el razonamiento jurídico. Quiero saber si las actividades con IA que usaste te ayudaron a aprender y a pensar por tu cuenta, o no.</p>
+  <p>Es una investigación personal del investigador: no forma parte de la evaluación de ninguna materia ni es una actividad oficial de la universidad en la que estudias.</p>
+
+  <h2>Qué implica participar</h2>
+  <ul>
+    <li><strong>Encuesta anónima</strong> de unos 10 minutos, con preguntas cerradas y algunas abiertas.</li>
+    <li><strong>Solo si quieres, además:</strong> una entrevista de 30 a 40 minutos y la autorización para usar tus trabajos de la materia con seudónimo. Eso se hace en un formulario aparte, al final.</li>
+  </ul>
+
+  <h2>Es voluntaria y no afecta tus notas</h2>
+  <p>Puedes no responder, o dejar de responder en cualquier momento, sin dar explicaciones y sin ninguna consecuencia. <strong>No veré ninguna respuesta antes de que las notas finales del ciclo estén registradas</strong>, y como la encuesta no pide tu nombre, no podré saber quién respondió ni quién no.</p>
+
+  <h2>Cómo se protegen tus datos</h2>
+  <ul>
+    <li>La encuesta no pide nombre, cédula ni correo, y no te pide iniciar sesión. Esta página no registra nada.</li>
+    <li>Si llenas el formulario de participación ampliada, tu nombre se guarda separado de la encuesta, sin forma de relacionarlos, y en la tesis aparecerás con un seudónimo (por ejemplo, «E-07»).</li>
+    <li>Los datos se tratan conforme a la Ley Orgánica de Protección de Datos Personales y se usan solo para la tesis doctoral y las publicaciones académicas que deriven de ella. No se entregan a terceros.</li>
+    <li>Las grabaciones de entrevistas, si las autorizas, se transcriben con seudónimo y se eliminan al terminar la investigación.</li>
+    <li>Puedes pedir acceder a tus datos, corregirlos o eliminarlos escribiendo a <a id="contacto" href="#">el investigador</a>.</li>
+  </ul>
+
+  <h2>Riesgos y beneficios</h2>
+  <p>El riesgo es mínimo: el de contar tu experiencia académica. No recibirás pago. El beneficio es que la enseñanza del derecho con IA se diseñe pensando en lo que viven los estudiantes.</p>
+
+  <div class="card">
+    <a class="btn btn-primary" id="btn-encuesta-2" href="#" target="_blank" rel="noopener noreferrer">Responder la encuesta</a>
+    <a class="btn btn-secondary" id="btn-participacion" href="#" target="_blank" rel="noopener noreferrer">Quiero participar más (entrevista o uso de mis trabajos)</a>
+  </div>
+
+  <footer>Investigación doctoral · Doctorado en Derecho, UASB-E · Hoja informativa, versión 2 · octubre de 2026</footer>
+</main>
+<script>
+  // Configuración: pega aquí los enlaces públicos que devuelve el script de Google (terminan en /viewform).
+  const CONFIG = {
+    encuesta: '',
+    participacion: '',
+    contacto: ''
+  };
+  function enlazar(id, url) {
+    const a = document.getElementById(id);
+    if (!a) return;
+    if (url) { a.href = url; a.removeAttribute('aria-disabled'); }
+    else { a.setAttribute('aria-disabled', 'true'); a.textContent += ' · aún no disponible'; }
+  }
+  enlazar('btn-encuesta', CONFIG.encuesta);
+  enlazar('btn-encuesta-2', CONFIG.encuesta);
+  enlazar('btn-participacion', CONFIG.participacion);
+  const c = document.getElementById('contacto');
+  if (CONFIG.contacto) { c.href = 'mailto:' + CONFIG.contacto; c.textContent = CONFIG.contacto; }
+</script>
+</body>
+</html>
